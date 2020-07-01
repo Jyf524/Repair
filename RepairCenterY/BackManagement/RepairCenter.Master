@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RepairCenter.master.cs" Inherits="RepairCenterY.RepairCenter" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+     <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../assets/vendor/linearicons/style.css"/>
+	<link rel="stylesheet" href="../assets/vendor/chartist/css/chartist-custom.css"/>
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="../assets/css/main.css"/>
+	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+	<link rel="stylesheet" href="../assets/css/demo.css"/>
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet"/>
+	<!-- ICONS -->
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon1.ico"/>
+    <link rel="icon"  sizes="96x96" href="../favicon1.ico"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div id="wrapper">
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="brand">
+				<a href="index.html"><img src="/assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"/></a>
+			</div>
+			<div class="container-fluid">
+				<div class="navbar-btn">
+					<button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
+				</div>
+				<div id="navbar-menu">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="PersonalIinformation.aspx" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="" class="img-circle" alt="Avatar" id="tx" runat="server"/> <span>
+                                <asp:Label ID="lbUserName" runat="server" Text=""></asp:Label></span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+							<ul class="dropdown-menu">
+								<li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><i class="lnr lnr-power-switch"></i> <span>注销</span></asp:LinkButton></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END NAVBAR -->
+		<!-- LEFT SIDEBAR -->
+		<div id="sidebar-nav" class="sidebar">
+			<div class="sidebar-scroll">
+				<nav>
+					<ul class="nav">
+
+                        <li id="PersonalIinformation" runat="server"><a href="PersonalIinformation.aspx" class="" id="PersonalIinformation1" runat="server"><i class="lnr lnr-home"></i> <span>个人中心</span></a></li>
+
+                        <li id="RepairBX" runat="server" visible="false"><a href="RepairBX.aspx" class="" id="RepairBX1" runat="server"><i class="lnr lnr-file-empty"></i> <span>报修管理</span></a></li>
+                        <li id="Company" runat="server" visible="false"><a href="Company.aspx" class="" id="Company1" runat="server"><i class="lnr  lnr-file-add"></i> <span>报修单位管理</span></a></li>
+                        <li id="UserDetailed" runat="server" visible="false"><a href="UserDetailed.aspx" class="" id="UserDetailed1" runat="server"><i class="lnr lnr-user"></i> <span>用户管理</span></a></li>
+
+                        <li id="RepairManagementZB" runat="server" visible="false"><a href="RepairManagementZB.aspx" class="" id="RepairManagementZB1" runat="server"><i class="lnr lnr-cog"></i> <span>维修管理</span></a></li>
+                        <li id="RepairManagementWX" runat="server" visible="false"><a href="RepairManagementWX.aspx" class="" id="RepairManagementWX1" runat="server"><i class="lnr lnr-cog"></i> <span>维修管理</span></a></li>
+                        <li id="RepairListLS" runat="server" visible="false"><a href="RepairListLS.aspx" class="" id="RepairListLS1" runat="server"><i class="lnr lnr-cog"></i> <span>维修管理</span></a></li>
+
+                        <li id="StudentInformation" runat="server" visible="false"><a href="StudentInformation.aspx" class="" id="StudentInformation1" runat="server"><i class="lnr lnr-user"></i> <span>学生管理</span></a></li>
+                        <li id="TeacherInformation" runat="server" visible="false"><a href="TeacherInformation.aspx" class="" id="TeacherInformation1" runat="server"><i class="lnr lnr-user"></i> <span>老师管理</span></a></li>
+						<li id="UnitUser" runat="server" visible="false"><a href="UserDetailed.aspx" class="" id="UnitUser1" runat="server"><i class="lnr lnr-users" ></i> <span>单位用户管理</span></a></li>
+
+                        <li id="SubstituteMachine" runat="server" visible="false"><a href="SubstituteMachine.aspx" class="" id="SubstituteMachine1" runat="server"><i class="lnr lnr-linearicons"></i> <span>代用机管理</span></a></li>
+
+                        <li id="Parts" runat="server" visible="false"><a href="Parts.aspx" class="" id="Parts1" runat="server"><i class="lnr lnr-cart"></i> <span>配件管理</span></a></li>
+                        <li id="WarehousingDetails" runat="server" visible="false"><a href="WarehousingDetails.aspx" class="" id="WarehousingDetails1" runat="server"><i class="lnr lnr-cart"></i> <span>配件入库管理</span></a></li>
+
+						<li id="EquipmentType" runat="server" visible="false"><a href="EquipmentType.aspx" class="" id="EquipmentType1" runat="server"><i class="lnr lnr-store"></i> <span>设备类别管理</span></a></li>
+
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- END LEFT SIDEBAR -->
+		<!-- MAIN -->
+		<div class="main">
+			<!-- MAIN CONTENT -->
+			<div class="main-content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+			</div>
+			<!-- END MAIN CONTENT -->
+		</div>
+        
+		<!-- END MAIN -->
+		<div class="clearfix"></div>
+	</div>
+	<!-- END WRAPPER -->
+	<!-- Javascript -->
+	<script src="../assets/vendor/jquery/jquery.min.js"></script>
+	<script src="../assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="../assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+	<script src="../assets/vendor/chartist/js/chartist.min.js"></script>
+	<script src="../assets/scripts/klorofil-common.js"></script>
+   
+        
+    </div>
+    </form>
+</body>
+</html>

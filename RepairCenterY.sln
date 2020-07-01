@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairCenterY", "RepairCenterY\RepairCenterY.csproj", "{52415649-5469-4E8F-A535-A46493B26DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairCenterY_DLL", "RepairCenterY_DLL\RepairCenterY_DLL.csproj", "{D924987F-2FD2-441D-9184-F1BFE33FCC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reports", "Reports\Reports.csproj", "{F12A4E86-D2DC-4AF8-A90F-945E48768353}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.12.108:8080/tfs/repaircentery
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RepairCenterY\\RepairCenterY.csproj
+		SccProjectName1 = RepairCenterY
+		SccLocalPath1 = RepairCenterY
+		SccProjectUniqueName2 = RepairCenterY_DLL\\RepairCenterY_DLL.csproj
+		SccProjectName2 = RepairCenterY_DLL
+		SccLocalPath2 = RepairCenterY_DLL
+		SccProjectUniqueName3 = Reports\\Reports.csproj
+		SccProjectName3 = Reports
+		SccLocalPath3 = Reports
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52415649-5469-4E8F-A535-A46493B26DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52415649-5469-4E8F-A535-A46493B26DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52415649-5469-4E8F-A535-A46493B26DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52415649-5469-4E8F-A535-A46493B26DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D924987F-2FD2-441D-9184-F1BFE33FCC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D924987F-2FD2-441D-9184-F1BFE33FCC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D924987F-2FD2-441D-9184-F1BFE33FCC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D924987F-2FD2-441D-9184-F1BFE33FCC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12A4E86-D2DC-4AF8-A90F-945E48768353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12A4E86-D2DC-4AF8-A90F-945E48768353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12A4E86-D2DC-4AF8-A90F-945E48768353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12A4E86-D2DC-4AF8-A90F-945E48768353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

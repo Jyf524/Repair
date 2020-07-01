@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\obj\Debug\RepairCenterY.csprojFakesResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\RepairCenterY.pdb
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\RepairCenterY_DLL.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\RepairCenterY_DLL.pdb
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Newtonsoft.Json.pdb
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\obj\Debug\RepairCenterY.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\obj\Debug\RepairCenterY.pdb
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\obj\Debug\RepairCenterY.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Reports.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Reports.pdb
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Newtonsoft.Json.Fakes.fakesconfig
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\RepairCenterY.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\RepairCenterY\bin\Telerik.Web.UI.xml

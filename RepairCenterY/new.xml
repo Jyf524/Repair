@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PCitys>
+  <Province name1="江苏省">
+    <City name2="镇江市">
+      <County name3="京口区" />
+      <County name3="润州区" />
+    </City>
+    <City name2="南京市">
+      <County name3="玄武区" />
+      <County name3="秦淮区" />
+      <County name3="鼓楼区" />
+    </City>
+    <City name2="常州市">
+      <County name3="武进区" />
+      <County name3="天宁区" />
+    </City>
+  </Province>
+  <Province name1="福建省">
+    <City name2="福州市">
+      <County name3="台江区"></County>
+      <County name3="鼓楼区"></County>
+    </City>
+    <City name2="厦门市">
+      <County name3="海沧区"></County>
+      <County name3="翔安区"></County>
+    </City>
+    <City name2="莆田市">
+      <County name3="城厢区"></County>
+      <County name3="荔城区"></County>
+    </City>
+  </Province>
+</PCitys>

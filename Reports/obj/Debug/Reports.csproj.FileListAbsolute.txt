@@ -1,0 +1,16 @@
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\bin\Debug\Reports.dll.config
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\bin\Debug\Reports.dll
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\bin\Debug\Reports.pdb
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\obj\Debug\Reports.RepairReport.resources
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\obj\Debug\Reports.csproj.GenerateResource.Cache
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\obj\Debug\Reports.dll
+D:\2\信息化设备报维修平台\RepairCenterY\Reports\obj\Debug\Reports.pdb
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\bin\Debug\Reports.dll.config
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\bin\Debug\Reports.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\bin\Debug\Reports.pdb
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\obj\Debug\Reports.RepairReport.resources
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\obj\Debug\Reports.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\obj\Debug\Reports.dll
+C:\Users\Administrator\Desktop\信息化设备报修平台\RepairCenterY\Reports\obj\Debug\Reports.pdb

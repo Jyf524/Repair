@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B71142B3-0FEC-4343-8661-5EACA0778ED8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibrary1</RootNamespace>
+    <AssemblyName>ClassLibrary1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Declaration.cs" />
+    <Compile Include="BLL\MachineFatherType.cs" />
+    <Compile Include="BLL\MachineSonType.cs" />
+    <Compile Include="BLL\Part.cs" />
+    <Compile Include="BLL\PartPutRecord.cs" />
+    <Compile Include="BLL\PartType.cs" />
+    <Compile Include="BLL\PartUseRecord.cs" />
+    <Compile Include="BLL\Replacement.cs" />
+    <Compile Include="BLL\ReplacementRecord.cs" />
+    <Compile Include="BLL\UnitsInfo.cs" />
+    <Compile Include="BLL\UsersInfo.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DAL\Declaration.cs" />
+    <Compile Include="DAL\MachineFatherType.cs" />
+    <Compile Include="DAL\MachineSonType.cs" />
+    <Compile Include="DAL\Part.cs" />
+    <Compile Include="DAL\PartPutRecord.cs" />
+    <Compile Include="DAL\PartType.cs" />
+    <Compile Include="DAL\PartUseRecord.cs" />
+    <Compile Include="DAL\Replacement.cs" />
+    <Compile Include="DAL\ReplacementRecord.cs" />
+    <Compile Include="DAL\UnitsInfo.cs" />
+    <Compile Include="DAL\UsersInfo.cs" />
+    <Compile Include="Model\Declaration.cs" />
+    <Compile Include="Model\MachineFatherType.cs" />
+    <Compile Include="Model\MachineSonType.cs" />
+    <Compile Include="Model\Part.cs" />
+    <Compile Include="Model\PartPutRecord.cs" />
+    <Compile Include="Model\PartType.cs" />
+    <Compile Include="Model\PartUseRecord.cs" />
+    <Compile Include="Model\Replacement.cs" />
+    <Compile Include="Model\ReplacementRecord.cs" />
+    <Compile Include="Model\UnitsInfo.cs" />
+    <Compile Include="Model\UsersInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
